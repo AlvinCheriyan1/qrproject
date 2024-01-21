@@ -34,6 +34,7 @@ app.post('/myfirstqr',(req, res) =>{
     QRcode.toDataURL(JSON.stringify(req.body), function (err, url) {
         if(err) {
          console.log("error occurred")
+         console.log("ERROR")
         }else{
             let response = {
                 value: url
