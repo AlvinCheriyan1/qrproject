@@ -1,0 +1,14 @@
+###
+POST http://localhost:8383/myfirstpost
+Content-Type: application/json
+
+{
+    "name": "Alvin",
+    "age": "123",
+    "height": "12",
+    "school": "DHS"
+}
+
+
+###
+GET http://localhost:8383/
