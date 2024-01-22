@@ -18,6 +18,9 @@ async function postData(url, data) {
     return response.json(); // parses JSON response into native JavaScript objects
   }
 function execute(){
+    let btn = document.getElementById("Submit")
+    btn.style.backgroundColor = "red"
+   
     let data = {
         name: "",
         age: "",
@@ -65,14 +68,21 @@ function executeGR(){
       img.width = 150; // Example width
       img.height = 150; // Example height
       img.alt = 'QR Code'; // Alt text
-      
+      img.className = "qr-code-img"
       // Append the image element to the body of the document or any other desired element
-      document.getElementById("img").appendChild(img);
+      document.getElementById("spanImg").appendChild(img);
 
       });
 
 
 
+      //https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1
+
+
 
 
 } 
+
+function cards(){
+    
+}

@@ -51,6 +51,10 @@ app.get('/',(req, res) => {
     res.sendFile('public/index.html')
 })
 
+app.get('/secondpage', (req, res) =>{
+    res.sendFile(__dirname + '/public/second.html');
+})
+
 
 
 
