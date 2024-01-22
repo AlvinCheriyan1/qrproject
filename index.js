@@ -55,34 +55,10 @@ app.get('/secondpage', (req, res) =>{
     res.sendFile(__dirname + '/public/second.html');
 })
 
+app.get('/finance', (req, res) =>{
+    res.sendFile(__dirname + '/public/finance.html')
+})
 
 
 
-
-
-
-
-
-// function execute(){
-//     alert("thanks")
-//     app.post('/',(req, res) => {
-//        data.name = document.getElementById(fname).value
-//        data.age = document.getElementById(lname).value
-//        data.height = document.getElementById(height).value
-//        data.school = document.getElementById(school).value
-       
-
-//     })
-//     let stringdata = JSON.stringify(data)
-
-//     // QRCode.toDataURL(stringdata, function (err, url) {
-//     //     if(err) {
-//     //      console.log("error occurred")
-//     //     }else{
-//     //         console.log(url)
-//     //     }
-        
-//     // })
-    
-// }
 

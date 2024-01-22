@@ -60,7 +60,7 @@ button {
 }
 
 button:hover {
-    background-color: #aea44c;
+    background-color: #ffffff;
 }
 
 /* Specific styles for QR code generation button */
@@ -103,4 +103,30 @@ button:hover {
 .button-link:hover,
 .button-link:focus {
     background-color: #0056b3;
+}
+
+
+.finance-button-style{
+    color: black;
+    background-color: lightcoral;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+    border: 2px solid lightcoral;
+    border-radius: 50px;
+
+}
+h4{
+    text-shadow: 2px 2px 5px red;
+}
+.text-box-stock{
+    height: 25px;
+    width: 250px;
+    font-size: 15px;
+
+}
+
+.bold-height{
+    text-shadow: 2px 2px 5px red;
 }
